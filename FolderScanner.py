@@ -25,4 +25,4 @@ def get_The_Student_Details(files):
         fileName = fileName.split(",")
         name = ' '.join(fileName[0].split('_'))
         id = fileName[-1].split('.')[0]
-        StudentsData.append({'name': name, 'id': id})
+        StudentsData.append({'Name': name, 'ID': id})
